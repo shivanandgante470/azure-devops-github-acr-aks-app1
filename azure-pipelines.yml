@@ -2,8 +2,10 @@
 # Build and push an image to Azure Container Registry
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
+#wf-github-acr-aks-app1-push-image --- This pipeline using CI/CD Pipeline
+
 trigger:
-- master
+- none
 
 resources:
 - repo: self
